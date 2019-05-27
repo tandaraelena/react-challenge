@@ -3,12 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.personList {
+  display: flex;
+  flex-direction: row;
+}
+
 .person {
   background: #eeeeee;
   width: 17rem;
   padding: 1rem;
   margin: 2rem auto;
-  transition: all 0.3s linear;
+  transition: all 0.2s linear;
   border-radius: 0.3rem;
   text-align: center;
 }
